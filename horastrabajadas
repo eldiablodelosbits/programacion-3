@@ -1,0 +1,16 @@
+ //declaracion de variables de entrada
+            int horasTrabajadas;
+            float costoHora;
+            //declaracion de varibale de salida
+            float sueldo;
+
+            //DATOS DE ENTRADA
+            horasTrabajadas = int.Parse(txthorastrabajadas.Text);
+            costoHora = float.Parse(txtcostoporhora.Text);
+
+            //DATOS DE PROCESO
+            sueldo = horasTrabajadas * costoHora;
+
+            //DATOS DE SALIDA
+            txtsueldo.Text = Convert.ToString(sueldo);
+        }
