@@ -14,3 +14,7 @@
             //DATOS DE SALIDA
             txtsueldo.Text = Convert.ToString(sueldo);
         }
+
+
+
+
